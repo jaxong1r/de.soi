@@ -1,0 +1,57 @@
+.refer_bg {
+    background-image: url(../image/juice2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    width: 100%;
+     
+    padding: 154px 0;
+}
+
+.refer h5 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.refer h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 51px;
+}
+
+.refer span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+@media(max-width:677px) {
+    .refer h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 142%;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,116 @@
+.rich_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    gap: 22px;
+    padding: 0 15px;
+}
+.rich{
+    padding: 55px 0;
+}
+.rich_text h5 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.rich_text h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 107%;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.rich_text p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+    margin-bottom: 22px;
+    max-width: 560px;
+    width: 100%;
+}
+
+.rich_text span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+@media(max-width:945px){
+    .rich_wrapper{       
+        display: block;
+    }
+    .go img{
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        width: 95%;
+    }
+    .rich_text h5 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        width: 104px;
+        display: block;
+        margin: 19px auto;
+    }
+    
+    .rich_text h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 213%;
+        text-align: center;
+        color: #000;
+        width: 200px;
+          display: block;
+        margin: 10px auto;
+    }
+    
+    .rich_text p {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 170%;
+        text-align: center;
+        color: #000;
+        max-width: 550px;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .rich_text span {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        text-align: center;
+        color: #000;
+        width: 106px;
+        display: block;
+        margin: 10px auto;
+    }
+}
+@media(max-width:690px){
+}

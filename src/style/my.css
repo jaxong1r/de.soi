@@ -1,0 +1,313 @@
+.my h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.my {
+    padding: 55px 20px;
+}
+
+.my_wrapper {
+    max-width: 960px;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.pr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.pr ul {
+    max-width: 380px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.med1 {
+    max-width: 380px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.med_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.med {
+    max-width: 279px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.med h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.med p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+}
+
+.my_wrapper {
+    margin-bottom: 24px;
+}
+
+.btn {
+    border: 1px solid #000;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.rang {
+    width: 30px;
+}
+
+.send h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.send input {
+    max-width: 440px;
+    width: 95%;
+    margin-bottom: 25px;
+    height: 200px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+    padding-bottom: 145px;
+}
+
+.save {
+    width: 440px;
+    height: 48px;
+    background: #000;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.my_wrap {
+    max-width: 960px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sub h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.tot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tot h5 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    text-align: right;
+    color: #000;
+}
+
+.sub p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.way {
+    max-width: 960px;
+    width: 95%;
+    height: 10px;
+    border: 1px solid black;
+    margin-bottom: 17px;
+}
+
+.yarim {
+    max-width: 360px;
+    width: 95%;
+    height: 9px;
+    background-color: #000;
+}
+
+.sub h6 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 26px;
+}
+
+.sub hr {
+    margin-bottom: 15px;
+}
+
+.me {
+    max-width: 440px;
+    width: 95%;
+}
+
+.me h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 22px;
+    margin-top: 25px;
+}
+
+.odam {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.odam input {
+    width: 304px;
+    height: 48px;
+    margin: 20px 0;
+}
+
+.odam h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.me hr {
+    margin-top: 20px;
+}
+
+.sub p {
+    max-width: 290px;
+    width: 95%;
+    margin: 15px 0;
+}
+
+@media(max-width:960px) {
+    .my_wrap {
+        display: grid;
+    }
+}
+
+@media(max-width:720px) {
+    .pr {
+        display: none;
+    }
+
+    .med_wrap {
+        display: grid;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .med1 {
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .med {
+        margin: 0 auto;
+    }
+    .my h2{
+        font-size: 55px;
+    }
+}
+
+@media(max-width:515px) {
+    .save {
+        width: 355px;
+    }
+
+    .me input {
+        width: 250px;
+    }
+
+    .tot {
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    }
+
+    .tot h5 {
+        width: 80px;
+    }
+
+    .sub p {
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .my_wrap hr {
+        width: 350px;
+    }
+
+    .me input {
+        width: 150px;
+    }
+}

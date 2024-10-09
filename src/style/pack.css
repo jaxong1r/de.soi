@@ -1,0 +1,123 @@
+.pack_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pack {
+    padding: 30px 16px;
+}
+
+.var h6 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.var h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 148%;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.var p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+    margin-bottom: 40px;
+    max-width: 560px;
+    width: 95%;
+}
+
+.var span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #000;
+}
+
+.pack_wrapper .y,.s{
+    max-width: 611px;
+    width: 95%;
+}
+.s{
+    display: none;
+}
+@media(max-width:1000px) {
+    .pack_wrapper {
+        flex-direction: column-reverse;
+        display: grid;
+    }
+.s{
+    display: block;
+    margin-bottom: 30px;
+}
+.y{
+    display: none;
+}
+
+.var h6 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.var h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 148%;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.var p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+    margin-bottom: 40px;
+    max-width: 560px;
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.var span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+}

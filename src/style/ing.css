@@ -1,0 +1,96 @@
+.ing h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 46px;
+}
+
+.ing {
+    padding: 80px 0;
+    background-color: #FFFBF6;
+}
+
+.ing p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 16px;
+    max-width: 719px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    max-width: 719px;
+    width: 90%;
+}
+
+.ing span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #bb6b1e;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.ing_card img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.ing_wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ing_wrapper h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-top: 16px;
+}
+
+@media(max-width:720px) {
+    .ing_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .ing h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: center;
+        color: #000;
+        margin-bottom: 30px;
+    }
+    .ing{
+        padding: 30px 0;
+    }
+}
+@media(max-width:470px){
+    .ing_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

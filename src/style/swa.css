@@ -1,0 +1,64 @@
+.swa_bg {
+    background-image: url(../image/Mask2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    width: 100%;
+   
+    padding-top: 118px;
+    padding-bottom: 118px;
+}
+
+.swa_bg h5 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 35px;
+  
+}
+
+.swa_bg h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    max-width: 720px;
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+}
+
+.swa_bg span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 0 auto  ;
+
+}
+
+@media(max-width:820px) {
+    .swa_bg h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+        width: 90%;
+    }
+}

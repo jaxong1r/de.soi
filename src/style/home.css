@@ -1,0 +1,141 @@
+.home_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    margin-bottom: 70px;
+}
+
+.mask {
+    max-width: 720px;
+    width: 100%;
+}
+
+.moloko {
+    background-image: url(../image/molochniy.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 540px;
+    width: 406px;
+     
+}
+
+.home_wrapper {
+    width: 100%;
+}
+
+.arrival {
+    background-color: #FFFBF6;
+    height: 922px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 720px;
+    width: 100%;
+}
+
+.arrival h6 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-top: 141px;
+    margin-bottom: 45px;
+}
+
+.arrival h1 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85%;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+    max-width: 473px;
+    width: 100%;
+    margin-bottom: 45px;
+     
+}
+
+.arrival span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+@media(max-width:1170px) {
+    .home_wrapper {
+        display: block;
+    }
+
+    .mask {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .arrival {
+        display: block;
+        margin: 0 auto;
+        height: 600px;
+    }
+
+    .moloko {
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .moloko h6 {
+        margin-top: 100px;
+    }
+}
+@media(max-width:700px) {
+    .moloko{
+        width: 350px;
+        height: 560px;
+    }
+
+}
+
+@media(max-width:525px) {
+    .moloko {
+        background-image: url(../image/moloko23.png);
+        width: 250px;
+        height: 220px;
+    }
+
+    .moloko h1 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 110%;
+        text-align: center;
+        color: #000;
+        width: 246px;
+        margin-bottom: 20px;
+    }
+    .moloko h6{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .arrival{
+        height: 300px;
+    }
+    .home{
+        margin-bottom: 0px;
+    }
+}

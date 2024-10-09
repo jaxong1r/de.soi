@@ -1,0 +1,89 @@
+.benefit h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 148%;
+    text-align: center;
+    color: #000;
+}
+
+.benefit {
+    padding: 80px 0;
+}
+
+.benefit p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 720px;
+    width: 90%;
+}
+
+.benefit_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.benefit_wrapper h3 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.benefit_wrapper p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    text-align: center;
+    color: #000;
+}
+
+.benefit_wrapper img {
+    display: block;
+    margin: 20px auto;
+}
+
+.benefit_wrapper div {
+    max-width: 400px;
+    width: 95%;
+}
+
+.benefit span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+@media(max-width:700px) {
+    .benefit_wrapper {
+        display: block;
+    }
+
+    .benefit_wrapper div {
+        margin: 0 auto;
+    }
+
+    .benefit h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 148%;
+        text-align: center;
+        color: #000;
+    }
+}

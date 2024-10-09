@@ -1,0 +1,92 @@
+.freq h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 70px;
+    color: #eae5dd;
+}
+
+.ask {
+    background-color: black;
+    padding: 40px 10px;
+}
+.ask_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.what hr {
+    border: 1px solid #fff;
+    width: 720px;
+    height: 0px;
+    margin-bottom: 16px;
+}
+
+.what h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.what p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 170%;
+    color: #fff;
+    max-width: 720px;
+    width: 95%;
+    margin-bottom: 15px;
+}
+.what div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:1120px){
+    .ask_wrapper{
+        display: grid;
+    }
+    .freq h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 40px;
+        color: #eae5dd;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 400px;
+        text-align: center;
+    }
+}
+
+@media(max-width:760px){
+    .what hr{
+        border: 1px solid #fff;
+        width: 520px;
+        height: 0px;
+        margin-bottom: 16px;
+    }
+}
+@media(max-width:560px){
+    .what hr{
+        border: 1px solid #fff;
+        width: 335px;
+        height: 0px;
+        margin-bottom: 16px;
+    }
+    .freq h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 30px;
+        color: #eae5dd;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 400px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,72 @@
+.best_card {
+    width: 340px;
+    height: 487px;
+}
+
+.best h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 91%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 59px;
+}
+
+.best_card h4 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.best_card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 16px;
+    max-width: 292px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.best_card span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+.best_card img {
+    display: block;
+    margin: 0 auto;
+}
+
+.best {
+    padding-bottom: 40px;
+}
+
+@media(max-width:750px) {
+    .best h2 {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 183%;
+        text-align: center;
+        color: #000;
+    }
+}

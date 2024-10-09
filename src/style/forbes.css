@@ -1,0 +1,42 @@
+.forbes {
+    padding: 50px 0 50px;
+    background-color: #FFFBF6;
+}
+
+.forbes_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forbes_card {
+    width: 480px;
+}
+
+.forbes_card img {
+    display: block;
+    margin: 0 auto;
+}
+
+.forbes_card p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    text-align: center;
+    color: #000;
+    margin: 24px 0;
+    max-width: 320px;
+    width: 90%;
+    display: block;
+     margin: 20px auto;
+}
+.forbes_wrapper .food{
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+@media(max-width:560px){
+  .forbes_wrapper .forbes_card:nth-child(3){
+    display: none;
+  }
+}

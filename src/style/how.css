@@ -1,0 +1,115 @@
+.how_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.how_wrapper p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #fff;
+    max-width: 632px;
+    width: 90%;
+}
+
+.how_wrapper h6 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #eae5dd;
+    margin-bottom: 17px;
+}
+
+.how_wrapper h3 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 142px;
+}
+
+.how {
+    background-color: black;
+    padding: 80px 10px;
+}
+
+.how .how_img {
+    max-width: 660px;
+    width: 100%;
+}
+
+.qwer {
+    display: none;
+}
+
+@media(max-width:1130px) {
+    .how_wrapper {
+        display: block;
+    }
+
+    .how_wrapper .how_text {
+        max-width: 632px;
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .how_wrapper .how_text p {
+        max-width: 632px;
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .qwer {
+        max-width: 660px;
+        width: 95%;
+        height: 420px;
+        height: 95%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .how_img {
+        display: none;
+    }
+}
+
+@media(max-width:722px) {
+    .qwer {
+        max-width: 400px;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .how_text h3 {
+        margin-bottom: 50px;
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 32px;
+        color: #fff;
+    }
+
+    .how_text {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .how_text p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 170%;
+        color: #fff;
+    }
+}
